@@ -9,6 +9,7 @@ public class HandleMultipleDropdowns {
 
 	public static void selectOptionFromDropDown(WebElement element, String value) {
 		Select select = new Select(element);
+		// comment 1
 
 		List<WebElement> list = select.getOptions();
 
